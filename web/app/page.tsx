@@ -8,8 +8,8 @@ export default function Home() {
 
         <div className="grid grid-cols-3 w-[800px] gap-6">
 
-          {fraudas_images.map((item) => (
-            <div className="">
+          {fraudas_images.map((item, index) => (
+            <div key={index} className="">
                 <div className="bg-white p-2 rounded-t-3xl text-center text-lg ">
                   <h1>{item.name}</h1>
                 </div>
