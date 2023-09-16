@@ -7,7 +7,7 @@ export default function WhatsappButton() {
 
     return (
         <Link href={`https://wa.me/${phoneNumber}`} target="_blank" rel="noopener noreferrer">
-            <div className="relative z-0 bg-white text-green-600 text-center text-3xl font-bold p-3 w-[400px] rounded-full border-4 border-green-600 shadow-lg">
+            <div className="relative z-0 bg-white text-green-600 text-center text-3xl font-bold p-3 w-[380px] rounded-full border-4 border-green-600 shadow-lg">
                 <Image
                     src={WhatsappLogo}
                     alt=""
